@@ -97,6 +97,7 @@ body{
 
 }
 
+
 .menu_list li a{
     text-decoration: none;
     color: #232323;
@@ -117,7 +118,32 @@ body{
 .form_picture{
     margin-top: 124px;
     position: absolute;
+    top: 6px;
     left: 0px;
     width: 1370px;
     height: 550px;
+    background: no-repeat /cover;
+    margin-bottom: 50px;
+}
+
+
+.phone_number{
+    float: right;
+    margin-top: 46px;
+    margin-right: 124px;
+    color: #1800b2;
+    font-weight: bold;
+    border-left: 1px solid gainsboro;
+    padding-left: 15px;
+}
+
+.phone_number li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+.poster{
+    width: 390px;
+    height: 480px;
+    background-color: cornflowerblue;
 }
